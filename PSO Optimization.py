@@ -73,7 +73,7 @@ for funname,objf in objective_function.items():
     print(output)
     #messagebox.showinfo('pso result',output)"""
             
-"""#Particle swarm code
+#Particle swarm code
 import random
 import numpy as np
 from tkinter import messagebox
@@ -161,9 +161,9 @@ for funname,objf in objective_function.items():
     output+='best fitness' + str(best_fitness) + '\n'
     output+= '\n'
     
-    messagebox.showinfo('pso result',output)"""
+    messagebox.showinfo('pso result',output)
 
-'''
+
 def calculate_formula(width, height, breadth, length):
     return (width + (height / breadth) * length) / 2
 
@@ -229,4 +229,5 @@ for w in range(int(min_width), int(max_width), int(seed_width)):
 
 # Print a message if no result was found within the FOS range
 if not found_result:
-    print(f"No result found within the FOS range [{min_fos}, {max_fos}]")'''
+    print(f"No result found within the FOS range [{min_fos}, {max_fos}]")
+    
